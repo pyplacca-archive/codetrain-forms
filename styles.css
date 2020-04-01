@@ -1,0 +1,111 @@
+.forms {
+    border-radius: 12px;
+    /* border: 1px solid rgb(194, 194, 194); */
+    box-shadow: 0px 0px 4px rgb(194, 194, 194);
+    padding: 35px 45px 25px 45px;
+    max-width: 360px;
+    margin: 5% auto;
+    
+}
+
+.forms .logo-div {
+    margin: 0;
+    text-align: center;
+}
+
+.form-logo {
+    height: 40px;
+    width: auto;
+    margin-bottom: 30px;
+    
+}
+
+.forms form {
+    font-family: 'Roboto';
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.forms label {
+    font-size: 11pt;
+    color: rgb(185, 185, 185);
+    padding: 10px;
+}
+
+.forms input {
+    width: 100%;
+    font-size: 11pt;
+    outline: none;
+    margin: 0;
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; 
+    box-sizing: border-box;
+    color: rgb(175, 175, 175);
+    border: none;
+    border-bottom: 1.3px solid rgb(209, 209, 209);
+    background-color: transparent;
+    padding: 15px 47px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px;
+    transition: 100ms border ease-in-out;
+    
+}
+
+.forms input:focus {
+    border-bottom-color:rgb(35, 170, 64);
+}
+
+.forms input[type="submit"] {
+    font-family: 'Product Sans';
+    font-size: 14pt;
+    border-radius: 5.5px;
+    border: 1.3px solid rgb(35, 170, 64);
+    background-color: transparent;
+    color: rgb(35, 170, 64);
+    margin: 20px 0px 20px 0px;
+    padding: 15px;
+    transition: 100ms all ease-in-out;
+}
+
+.forms input[type="submit"]:hover {
+    color: #fff;
+    background-color: rgb(35, 170, 64);
+    
+}
+
+::placeholder {
+    font-family: 'Roboto';
+    font-size: 11pt;
+    color: rgb(175, 175, 175);
+    transition: color 200ms ease-in-out;
+}
+
+:focus::placeholder {
+    color: rgb(231, 231, 231);
+    
+}
+
+.forms .signature {
+    font-family: 'Product Sans';
+    font-size: 10pt;
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+    color: #d2d2d2;
+}
+
+.forms .signature span {
+    color: rgb(243, 36, 36)
+}
+
+.response {
+    font-family: 'Product Sans';
+    font-size: 20pt;
+    margin: 10% auto;
+    text-align: center;
+    color: rgb(175, 175, 175);
+    padding: 20px;
+}
